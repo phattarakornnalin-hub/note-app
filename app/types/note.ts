@@ -4,4 +4,5 @@ export type Note = {
   content: string;
   themes: string[];
   createdAt: string;
+  pdfUrl: string;
 };

@@ -8,7 +8,9 @@ export const notes: Note[] = [
       "ทำความเข้าใจ App Router, Layout และการจัดโครงสร้างหน้าใน Next.js",
     themes: ["Next.js", "Routing"],
     createdAt: "2 days ago",
+    pdfUrl: "/pdfs/nextjs-app-router.pdf",
   },
+
   {
     id: 2,
     title: "Server Actions",
@@ -16,7 +18,9 @@ export const notes: Note[] = [
       "Server Actions ช่วยให้เราสามารถเรียกใช้ server-side function จาก UI ได้",
     themes: ["Next.js", "Backend"],
     createdAt: "5 days ago",
+    pdfUrl: "/pdfs/server-actions.pdf",
   },
+
   {
     id: 3,
     title: "React Server Components",
@@ -24,7 +28,9 @@ export const notes: Note[] = [
       "ทำความเข้าใจ Server Components และความแตกต่างระหว่าง Server และ Client Components",
     themes: ["React", "Next.js"],
     createdAt: "1 week ago",
+    pdfUrl: "/pdfs/react-server-components.pdf",
   },
+
   {
     id: 4,
     title: "TypeScript Interface",
@@ -32,5 +38,6 @@ export const notes: Note[] = [
       "การสร้าง Interface สำหรับกำหนดรูปแบบของข้อมูลและช่วยให้โค้ด TypeScript ปลอดภัยขึ้น",
     themes: ["TypeScript"],
     createdAt: "2 weeks ago",
+    pdfUrl: "/pdfs/typescript-interface.pdf",
   },
 ];

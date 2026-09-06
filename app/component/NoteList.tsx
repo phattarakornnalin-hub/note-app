@@ -5,11 +5,9 @@ type NoteListProps = {
   notes: Note[];
 };
 
-export default function NoteList({
-  notes,
-}: NoteListProps) {
+export default function NoteList({ notes }: NoteListProps) {
   return (
-    <div className="space-y-4">
+    <div className="grid gap-6 sm:grid-cols-2">
       {notes.map((note) => (
         <NoteCard key={note.id} note={note} />
       ))}
